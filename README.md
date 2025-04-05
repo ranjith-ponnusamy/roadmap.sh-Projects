@@ -16,9 +16,3 @@ This project is a **single-page CV** created using semantic HTML. It's designed 
 - ✅ Easy to style or convert into PDF
 
 ---
-
-## 🛠️ How to Run
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/single-page-cv.git
