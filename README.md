@@ -16,3 +16,4 @@ This project is a **single-page CV** created using semantic HTML. It's designed 
 - ✅ Easy to style or convert into PDF
 
 ---
+project 2 - [Basic-HTML-Website](https://roadmap.sh/projects/basic-html-website)
