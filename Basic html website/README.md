@@ -29,4 +29,3 @@ This project is based on the following roadmap challenge
  > 📄 Live Project Link: 🔗 [roadmap.sh Project Page](https://roadmap.sh/projects/basic-html-website)
 # 🧑‍💻 Author
 Ranjith P_ Frontend Developer passionate about clean code & design systems.
-https://roadmap.sh/projects/basic-html-website
