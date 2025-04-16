@@ -9,7 +9,8 @@ Hey there! 👋 Welcome to my little web playground where I tinker, build, break
 Here’s a quick peek at some of the projects you’ll find in here:
 
 1. [**Single-Page CV**](https://roadmap.sh/projects/single-page-cv) – Layout with HTML and little bit CSS. Raw, clean, and semantic.
-2. [**Basic HTML Website**]() - HTML only website with multiple pages
+2. [**Basic HTML Website**](https://roadmap.sh/projects/basic-html-website) - HTML only website with multiple pages
+3. [**Personal Portfolio**](https://roadmap.sh/projects/portfolio-website) - Simple HTML and CSS responsive website
 
 ---
 
