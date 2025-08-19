@@ -12,6 +12,7 @@ Here’s a quick peek at some of the projects you’ll find in here:
 2. [**Basic HTML Website**](https://roadmap.sh/projects/basic-html-website) - HTML only website with multiple pages
 3. [**Personal Portfolio**](https://roadmap.sh/projects/portfolio-website) - Simple HTML and CSS responsive website
 4. [**Change Log**](https://roadmap.sh/projects/changelog-component)
+5. [**Testimonial Cards**](https://roadmap.sh/projects/testimonial-cards)
 
 ---
 
