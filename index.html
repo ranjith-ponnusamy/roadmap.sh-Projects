@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #050505;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Testimonials container */
+    .testimonials {
+      background: #fff;
+      width: 90%;
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    /* Card style */
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card.dark {
+      background: #222;
+      color: #fff;
+    }
+
+    .card p {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    /* Profile section */
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .profile img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 12px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .role {
+      font-size: 13px;
+      color: gray;
+    }
+
+    /* Large testimonial card */
+    .testimonial-card {
+      grid-column: span 2;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #1e1e1e;
+      color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .testimonial-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .testimonial-content {
+      flex: 1;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .testimonial-text {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    /* Responsive adjustments */
+    @media(max-width: 768px) {
+      .testimonial-card {
+        grid-column: span 1;
+        flex-direction: column;
+        text-align: center;
+      }
+      .testimonial-card img {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="testimonials">
+
+    <!-- Card 1 -->
+    <div class="card dark">
+      <p>I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from where I started.<br><br>Highly recommended!</p>
+      <div class="profile">
+        <img src="C:\Users\91995\roadmap.sh-Projects\Frontend Projects\roadmap.sh-Projects\Frontend-Projects\05-Testimonial-card\download (1).jpeg" alt="">
+        <div>
+          <div class="name">Artem Jones</div>
+          <div class="role">Junior Frontend Developer</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <p>Since starting my career in 2021, I have only followed one resource, roadmap.sh, it truly helped me go from 0 to having a job and changing the financial trajectory of my family.</p>
+      <div class="profile">
+        <img src="https://via.placeholder.com/50" alt="">
+        <div>
+          <div class="name">Artem Jones</div>
+          <div class="role">Junior Frontend Developer</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Large Testimonial -->
+    <div class="testimonial-card">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture">
+      <div class="testimonial-content">
+        <div class="stars">★★★★★</div>
+        <div class="name">Jackie Mackle</div>
+        <div class="role">Engineering Manager</div>
+        <p class="testimonial-text">
+          I find myself recommending roadmap.sh to all the internees or junior developers. 
+          It's a great way to skill up and grow in your career.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
