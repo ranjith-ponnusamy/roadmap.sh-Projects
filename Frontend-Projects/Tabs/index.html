@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Accessible Tabs</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <script src="script.js" ></script>
+</head>
+<body>
+  <main>
+    <h1>Simple Tabs</h1>
+
+    <!-- Tablist -->
+    <div class="tabs" role="tablist" aria-label="Sample tabs">
+      <button
+        role="tab"
+        id="tab-1"
+        class="tab"
+        aria-selected="true"
+        aria-controls="panel-1"
+        tabindex="0"
+      >
+        Overview
+      </button>
+      <button
+        role="tab"
+        id="tab-2"
+        class="tab"
+        aria-selected="false"
+        aria-controls="panel-2"
+        tabindex="-1"
+      >
+        Features
+      </button>
+      <button
+        role="tab"
+        id="tab-3"
+        class="tab"
+        aria-selected="false"
+        aria-controls="panel-3"
+        tabindex="-1"
+      >
+        Pricing
+      </button>
+      <button
+        role="tab"
+        id="tab-4"
+        class="tab"
+        aria-selected="false"
+        aria-controls="panel-4"
+        tabindex="-1"
+      >
+        FAQ
+      </button>
+    </div>
+
+    <!-- Panels -->
+    <section
+      id="panel-1"
+      role="tabpanel"
+      aria-labelledby="tab-1"
+      tabindex="0"
+    >
+      <h2 class="visually-hidden">Overview</h2>
+      <p>Welcome to the Overview panel.</p>
+    </section>
+
+    <section
+      id="panel-2"
+      role="tabpanel"
+      aria-labelledby="tab-2"
+      hidden
+      tabindex="0"
+    >
+      <h2 class="visually-hidden">Features</h2>
+      <p>Here are the features.</p>
+    </section>
+
+    <section
+      id="panel-3"
+      role="tabpanel"
+      aria-labelledby="tab-3"
+      hidden
+      tabindex="0"
+    >
+      <h2 class="visually-hidden">Pricing</h2>
+      <p>Pricing details go here.</p>
+    </section>
+
+    <section
+      id="panel-4"
+      role="tabpanel"
+      aria-labelledby="tab-4"
+      hidden
+      tabindex="0"
+    >
+      <h2 class="visually-hidden">FAQ</h2>
+      <p>Frequently asked questions.</p>
+    </section>
+  </main>
+
+  
+</body>
+</html>
